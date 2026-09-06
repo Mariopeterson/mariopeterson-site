@@ -141,9 +141,9 @@ Six for v1, real, with a one-line caption each. Mario picks six of these eight c
 Three cards for v1: email, resume PDF, LinkedIn + GitHub. No form in v1; a form comes later, with a Node backend.
 
 Heading (TODO): Get in touch.
-Email: TODO
+Email: Mariopetersonjr@hotmail.com
 Resume: resume.pdf
-LinkedIn: TODO
+LinkedIn: https://www.linkedin.com/in/mariofpeterson/
 GitHub: https://github.com/mariopeterson
 Services line (draft): Open to select consulting on AI automation and partner programs.
 

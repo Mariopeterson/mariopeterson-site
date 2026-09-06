@@ -89,5 +89,5 @@ reference/ is gitignored. It is licensed course material and must never be commi
 
 - GitHub: https://github.com/mariopeterson
 - Existing Korea site: https://mariopeterson.github.io/Projects/
-- LinkedIn: TODO
-- Email for contact: TODO
+- LinkedIn: https://www.linkedin.com/in/mariofpeterson/
+- Email for contact: Mariopetersonjr@hotmail.com
