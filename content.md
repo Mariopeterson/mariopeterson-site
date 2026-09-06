@@ -92,7 +92,7 @@ Videos: TODO
 
 ## 03 / Path (the timeline)
 
-Each step: Hangul label, short title, one line, year. Click expands to the one line plus an optional longer note.
+There is no separate About section; this section does that work. Each step: Hangul label, short title, one line, year. Click expands to the one line plus an optional longer note. The Hangul labels stay; the site is English only.
 
 1. 공군 / U.S. Air Force / Enlisted out of high school. Logistics, 2S051. / TODO year
 2. 오산 / Osan Air Base, Korea / Learned Korean on the job. Started the thread that runs through everything since. / TODO year
@@ -106,8 +106,6 @@ Each step: Hangul label, short title, one line, year. Click expands to the one l
 
 Thesis line, shown after the last step (TODO rewrite):
 None of this needed a connection or a pedigree. It needed knowing the doors existed.
-
-Korean version of this section for the 한국어 toggle: TODO (write it yourself; do not machine-translate)
 
 ---
 
@@ -126,7 +124,7 @@ Each: name, one line, detail on select.
 
 ## 05 / Photos
 
-Six to eight, real, with a one-line caption each. TODO choose:
+Six for v1, real, with a one-line caption each. Mario picks six of these eight candidates. TODO mark the six and write a caption for each:
 - Osan
 - Luke
 - Seoul
@@ -139,6 +137,8 @@ Six to eight, real, with a one-line caption each. TODO choose:
 ---
 
 ## 06 / Contact
+
+Three cards for v1: email, resume PDF, LinkedIn + GitHub. No form in v1; a form comes later, with a Node backend.
 
 Heading (TODO): Get in touch.
 Email: TODO
