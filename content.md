@@ -156,7 +156,7 @@ Links: LinkedIn, GitHub, Instagram (TODO), YouTube (TODO)
 
 ---
 
-## Certifications strip (small, under Work or Stack)
+## Certifications strip (one line in Plex Mono, directly under 04 / Stack)
 
 - Microsoft AZ-900, SC-900, MS-900, MB-901, PL-900
 - Google Cloud Generative AI Leader (2026)

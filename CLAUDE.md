@@ -49,8 +49,9 @@ Do not do: rounded pill buttons, glassmorphism, gradient text, icon grids, three
 | Food tabs | 02 / TAKES: tabs for Tech, Veteran transition, Korea; each tab a short intro and one video | tabs |
 | Glimpses carousel | 03 / PATH: the decision timeline (see Style); carousel cards become timeline steps with Hangul labels | carousel → timeline |
 | Regions map + picker | 04 / STACK: Microsoft, Google Cloud, n8n, Claude Code, Korean; pick one to see detail | region grid + select |
+| — (new) | Certifications strip: one line in Plex Mono, directly under 04 / STACK | plain text line |
 | Postcards lightbox | 05 / PHOTOS: six photos for v1, Mario's pick from the eight candidates in content.md | gallery-grid + lightbox |
-| Plan Your Visit cards | 06 / CONTACT: three cards for v1 — email, resume PDF, LinkedIn + GitHub; services line as caption. No contact form in v1; a form comes later, with a Node backend | three cards |
+| Plan Your Visit cards | 06 / CONTACT: three cards for v1 — email, resume PDF, LinkedIn + GitHub; services line as caption. No contact form in v1; a form comes later, with a Node backend. The only interaction here is a copy-email button on the email card; nothing more | three cards |
 | Footer | Footer with links | site-footer |
 
 ## Class Files map (reference/Class Files)
