@@ -1,0 +1,9 @@
+# Licensed course material, never public
+reference/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
