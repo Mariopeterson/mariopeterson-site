@@ -3,37 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Discover Korea: a single-page guide to the culture, food, and regions of South Korea.">
-  <title>Discover Korea</title>
+  <meta name="description" content="Mario Peterson. Air Force logistics to Microsoft to Stern to building AI tools. Partnerships and customer success, with the hands to build what I sell.">
+  <title>Mario Peterson</title>
 
-  <!-- Bootstrap 5.3 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+KR:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5.3: the tabs and the carousel depend on it -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <link rel="stylesheet" href="styles.css">
 
-  <!-- Exercise 5C: mark that JS is available ASAP so CSS can pre-hide animated
-       elements without breaking the page for no-JS visitors -->
+  <!-- Mark that JS is available ASAP so CSS can pre-hide animated elements
+       without breaking the page for no-JS visitors -->
   <script>document.documentElement.classList.add("js");</script>
 </head>
 <body>
 
   <!-- Navbar -->
   <nav class="site-nav">
-    <a href="#" class="brand">Discover <span>Korea</span></a>
+    <a href="#" class="brand">Mario <span>Peterson</span></a>
     <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
     <ul class="nav-links">
-      <li><a href="#culture">Culture</a></li>
-      <li><a href="#food">Food</a></li>
-      <li><a href="#regions">Regions</a></li>
-      <li><a href="#visit">Visit</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#takes">Takes</a></li>
+      <li><a href="#path">Path</a></li>
+      <li><a href="#stack">Stack</a></li>
+      <li><a href="#photos">Photos</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
 
   <!-- Hero -->
   <header class="hero">
-    <h1>Discover Korea<span class="kr">대한민국</span></h1>
-    <p>Land of the Morning Calm, where ancient palaces, mountain temples,
-       and neon-lit streets share the same skyline.</p>
+    <h1>Mario Peterson<span class="kr" lang="ko">마리오 피터슨</span></h1>
+    <p class="positioning">Air Force logistics to Microsoft to Stern to building AI tools.
+       Partnerships and customer success, with the hands to build what I sell.</p>
+    <!-- TODO hero photo: content.md calls for img/mario-hero.jpg, a real photo, not a headshot -->
+    <div class="photo-slot photo-slot--hero" role="img" aria-label="Placeholder for hero photo">
+      <span class="todo">TODO &middot; img/mario-hero.jpg</span>
+    </div>
     <a href="#intro" class="scroll" aria-label="Scroll down">&#8595;</a>
   </header>
 
@@ -41,232 +51,310 @@
   <main class="wrapper">
 
     <section class="section" id="intro">
-      <h2>An Ancient Land, a Modern Heartbeat</h2>
-      <p>South Korea sits on a mountainous peninsula in East Asia, home to
-         roughly 51 million people and one of the world's most dynamic cultures.
-         In a single day you can wander a 600-year-old palace in the morning,
-         ride a high-speed train through terraced rice fields by afternoon, and
-         end the night in a glowing district of cafés, markets, and music.
-         Four distinct seasons shape the rhythm of life here, from cherry-blossom
-         springs to snow-dusted winters.</p>
+      <!-- TODO heading: content.md has no heading for the intro section -->
+      <h2><span class="todo">TODO intro heading</span></h2>
+      <p>I enlisted in the Air Force out of high school and spent my years in logistics,
+         keeping F-16s and F-35s supplied at Luke and at Osan, where I learned Korean.
+         The GI Bill got me to Illinois for finance, a Gilman scholarship got me to
+         Singapore, and from there I spent five years in the Microsoft ecosystem:
+         enterprise customer success in the US and Canada, then building the OEM partner
+         motion across India and ANZ. I finished my MBA at NYU Stern in May. Now I build
+         the tools I used to only sell.</p>
 
       <div class="fact-box">
-        <h3 class="h6">Did you know?</h3>
         <p id="fact-text"></p>
-        <button id="fact-btn" class="btn btn-primary btn-sm">Show me another</button>
+        <button id="fact-btn" class="button">Show me another</button>
       </div>
     </section>
 
-    <section class="section" id="culture">
-      <h2>Culture &amp; Heritage</h2>
-      <p>Korean culture blends deep tradition with a global creative wave. The
-         Korean alphabet, <em>Hangeul</em>, was created in 1443 by King Sejong the
-         Great to make reading and writing available to everyone, and it is still
-         celebrated as one of the most logical writing systems ever designed.</p>
-      <p>Visitors can walk the grounds of Seoul's five grand palaces, led by the
-         majestic <em>Gyeongbokgung</em>, or slip on a flowing <em>hanbok</em> for
-         the day. Meanwhile, K-pop, K-dramas, and award-winning films like
-         <em>Parasite</em> have carried Korean storytelling to every corner of the
-         world.</p>
+    <section class="section" id="work">
+      <h2><span class="section-label">01 / Work</span>Work</h2>
+      <p class="lede">What I have built, and what I learned building it.</p>
+
+      <div class="work-grid">
+        <article class="work-item">
+          <h3>K-Compliance Agent</h3>
+          <p class="work-line"><span class="work-key">Problem</span> <span class="todo">TODO</span></p>
+          <p class="work-line"><span class="work-key">Built</span> Bilingual FDA compliance tool for
+             Korean beauty brands entering the US</p>
+          <p class="work-line"><span class="work-key">Result</span> <span class="todo">TODO</span></p>
+          <p class="work-line"><span class="work-key">Link</span> <span class="todo">TODO GitHub</span></p>
+          <p class="tags">AI &middot; Korea &middot; Claude Code</p>
+        </article>
+
+        <article class="work-item">
+          <h3>Prue Care Agent</h3>
+          <p class="work-line"><span class="work-key">Problem</span> <span class="todo">TODO</span></p>
+          <p class="work-line"><span class="work-key">Built</span> n8n-based medication assistant;
+             9-item evaluation pipeline scoring 4.9/5.0</p>
+          <p class="work-line"><span class="work-key">Result</span> <span class="todo">TODO</span></p>
+          <p class="work-line"><span class="work-key">Link</span> <span class="todo">TODO</span></p>
+          <p class="tags">AI &middot; n8n</p>
+        </article>
+
+        <article class="work-item">
+          <h3>Discover Korea</h3>
+          <p class="work-line"><span class="work-key">Problem</span> Wanted a real site, not a template,
+             to learn front-end by building</p>
+          <p class="work-line"><span class="work-key">Built</span> Single-page site in vanilla HTML/CSS/JS
+             with tabs, carousel, image map, lightbox</p>
+          <p class="work-line"><span class="work-key">Result</span> Live at mariopeterson.github.io/Projects</p>
+          <p class="work-line"><span class="work-key">Link</span>
+             <a href="https://mariopeterson.github.io/Projects/">mariopeterson.github.io/Projects</a></p>
+          <p class="tags">Web &middot; Korea</p>
+        </article>
+
+        <article class="work-item">
+          <h3>This site</h3>
+          <p class="work-line"><span class="work-key">Problem</span> Needed a site that proves I can build,
+             not just say I can</p>
+          <p class="work-line"><span class="work-key">Built</span> <span class="todo">TODO, fill in after v1 ships</span></p>
+          <p class="work-line"><span class="work-key">Link</span>
+             <a href="https://github.com/mariopeterson">GitHub repo</a></p>
+          <p class="tags">Web</p>
+        </article>
+      </div>
+      <!-- TODO other n8n / Claude Code projects (content.md) -->
     </section>
 
-    <section class="section" id="food">
-      <h2>A Feast for the Senses</h2>
-      <p>Korean food is built for sharing. A single meal arrives surrounded by
-         <em>banchan</em>, small side dishes that change with the season, anchored
-         by staples like <em>kimchi</em>, the country's beloved fermented cabbage.
-         Try a sizzling plate of <em>bulgogi</em> or <em>samgyeopsal</em> at a
-         Korean BBQ table, a colorful bowl of <em>bibimbap</em>, or a paper cup of
-         spicy <em>tteokbokki</em> from a bustling street stall. Every bite is a mix
-         of heat, tang, and comfort.</p>
+    <section class="section" id="takes">
+      <h2><span class="section-label">02 / Takes</span>Takes</h2>
+      <p class="lede">Short videos where I say what I actually think.</p>
 
-      <!-- Exercise 3C: tabbed sections using a JS library (Bootstrap tabs) -->
-      <ul class="nav nav-tabs mt-4" id="food-tabs" role="tablist">
+      <!-- Tabbed panels (Bootstrap tabs) -->
+      <ul class="nav nav-tabs" id="takes-tabs" role="tablist">
         <li class="nav-item" role="presentation">
-          <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#tab-bbq" type="button" role="tab">Korean BBQ</button>
+          <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#tab-tech" type="button" role="tab" aria-selected="true">Tech</button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-street" type="button" role="tab">Street Food</button>
+          <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-veteran" type="button" role="tab" aria-selected="false">Veteran transition</button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-banchan" type="button" role="tab">Banchan &amp; Staples</button>
+          <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-korea" type="button" role="tab" aria-selected="false">Korea</button>
         </li>
       </ul>
-      <div class="tab-content food-tab-content">
-        <div class="tab-pane fade show active" id="tab-bbq" role="tabpanel">
-          <p>Gather around a tabletop grill for <em>bulgogi</em> (marinated beef) or
-             <em>samgyeopsal</em> (pork belly), wrapped in lettuce with garlic and
-             ssamjang. The grill is the centerpiece; cooking together is the point.</p>
+      <div class="tab-content takes-tab-content">
+        <div class="tab-pane fade show active" id="tab-tech" role="tabpanel">
+          <p>Google vs Microsoft, GCP vs Azure, what the enterprise sale actually looks like
+             from inside.</p>
+          <p class="todo">TODO video &mdash; title, URL, one-line description</p>
         </div>
-        <div class="tab-pane fade" id="tab-street" role="tabpanel">
-          <p>Night markets serve spicy <em>tteokbokki</em> rice cakes, crispy
-             <em>hotteok</em> pancakes, and seaweed-wrapped <em>gimbap</em> rolls.
-             Seoul's Gwangjang Market is the classic place to start.</p>
+        <div class="tab-pane fade" id="tab-veteran" role="tabpanel">
+          <p>For enlisted people who think this life is out of reach. It isn't. Here is how
+             the doors work.</p>
+          <p class="todo">TODO video &mdash; title, URL, one-line description</p>
         </div>
-        <div class="tab-pane fade" id="tab-banchan" role="tabpanel">
-          <p>Every meal arrives with <em>banchan</em>, a constellation of small side
-             dishes led by <em>kimchi</em>. Stir a bowl of <em>bibimbap</em> together
-             and you'll taste the whole philosophy: balance in every bite.</p>
+        <div class="tab-pane fade" id="tab-korea" role="tabpanel">
+          <p>Language, TV, Seoul, and why I am going back.</p>
+          <p class="todo">TODO video &mdash; title, URL, one-line description</p>
         </div>
       </div>
     </section>
 
-    <!-- Exercise 4A: slideshow/carousel using a JS library (Bootstrap carousel) -->
-    <section class="section" id="glimpses">
-      <h2>Glimpses of Korea</h2>
-      <div id="korea-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4500">
+    <!-- 03 / Path. The carousel holds the steps for now; the glowing timeline
+         is built later on the path branch. -->
+    <section class="section" id="path">
+      <h2><span class="section-label">03 / Path</span>Path</h2>
+
+      <div id="path-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="6000">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#korea-carousel" data-bs-slide-to="0" class="active" aria-label="Seoul nights"></button>
-          <button type="button" data-bs-target="#korea-carousel" data-bs-slide-to="1" aria-label="Jeju coast"></button>
-          <button type="button" data-bs-target="#korea-carousel" data-bs-slide-to="2" aria-label="Autumn temples"></button>
-          <button type="button" data-bs-target="#korea-carousel" data-bs-slide-to="3" aria-label="Gangwon winter"></button>
+          <button type="button" data-bs-target="#path-carousel" data-bs-slide-to="0" class="active" aria-label="U.S. Air Force"></button>
+          <button type="button" data-bs-target="#path-carousel" data-bs-slide-to="1" aria-label="Osan Air Base, Korea"></button>
+          <button type="button" data-bs-target="#path-carousel" data-bs-slide-to="2" aria-label="Luke AFB"></button>
+          <button type="button" data-bs-target="#path-carousel" data-bs-slide-to="3" aria-label="University of Illinois"></button>
+          <button type="button" data-bs-target="#path-carousel" data-bs-slide-to="4" aria-label="Singapore"></button>
+          <button type="button" data-bs-target="#path-carousel" data-bs-slide-to="5" aria-label="Microsoft"></button>
+          <button type="button" data-bs-target="#path-carousel" data-bs-slide-to="6" aria-label="India and ANZ"></button>
+          <button type="button" data-bs-target="#path-carousel" data-bs-slide-to="7" aria-label="NYU Stern"></button>
+          <button type="button" data-bs-target="#path-carousel" data-bs-slide-to="8" aria-label="Now"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="glimpse-slide glimpse-seoul">
-              <span class="glimpse-kr">서울</span>
-              <h3>Seoul Nights</h3>
-              <p>Neon districts, midnight markets, and a skyline that never sleeps.</p>
+            <div class="step-card">
+              <span class="step-kr" lang="ko">공군</span>
+              <h3>U.S. Air Force</h3>
+              <p>Enlisted out of high school. Logistics, 2S051.</p>
+              <p class="step-year todo">TODO year</p>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="glimpse-slide glimpse-jeju">
-              <span class="glimpse-kr">제주</span>
-              <h3>Jeju Coast</h3>
-              <p>Volcanic cliffs, emerald water, and the songs of the haenyeo divers.</p>
+            <div class="step-card">
+              <span class="step-kr" lang="ko">오산</span>
+              <h3>Osan Air Base, Korea</h3>
+              <p>Learned Korean on the job. Started the thread that runs through everything since.</p>
+              <p class="step-year todo">TODO year</p>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="glimpse-slide glimpse-autumn">
-              <span class="glimpse-kr">단풍</span>
-              <h3>Autumn Temples</h3>
-              <p>Mountain monasteries wrapped in crimson and gold every October.</p>
+            <div class="step-card">
+              <span class="step-kr" lang="ko">루크</span>
+              <h3>Luke AFB</h3>
+              <p>F-16 and F-35 supply chain.</p>
+              <p class="step-year todo">TODO year</p>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="glimpse-slide glimpse-winter">
-              <span class="glimpse-kr">겨울</span>
-              <h3>Gangwon Winter</h3>
-              <p>Powder slopes and quiet snowfall in the alpine east.</p>
+            <div class="step-card">
+              <span class="step-kr" lang="ko">일리노이</span>
+              <h3>University of Illinois</h3>
+              <p>BS Finance on the GI Bill. Gilman Scholar.</p>
+              <p class="step-year todo">TODO year</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="step-card">
+              <span class="step-kr" lang="ko">싱가포르</span>
+              <h3>Singapore</h3>
+              <p>Semester abroad. First time seeing Asia as a career, not a deployment.</p>
+              <p class="step-year todo">TODO year</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="step-card">
+              <span class="step-kr" lang="ko">마이크로소프트</span>
+              <h3>Microsoft</h3>
+              <p>Customer Success Account Manager, US and Canada enterprise.</p>
+              <p class="step-year todo">TODO years</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="step-card">
+              <span class="step-kr" lang="ko">인도 &middot; 호주</span>
+              <h3>India and ANZ</h3>
+              <p>Built the OEM partner motion. India book from ~$600K to $1.3M.</p>
+              <p class="step-year todo">TODO years</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="step-card">
+              <span class="step-kr" lang="ko">스턴</span>
+              <h3>NYU Stern</h3>
+              <p>Tech MBA, Strategy and Tech Innovation. Graduated May 2026.</p>
+              <p class="step-year">2024&ndash;2026</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="step-card">
+              <span class="step-kr" lang="ko">지금</span>
+              <h3>Now</h3>
+              <p>Building AI tools. Partnerships and customer success roles, AI-forward
+                 companies. Seoul on the horizon.</p>
+              <p class="step-year">2026</p>
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#korea-carousel" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#path-carousel" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#korea-carousel" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#path-carousel" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+
+      <p class="thesis">None of this needed a connection or a pedigree. It needed knowing
+         the doors existed.</p>
     </section>
 
-    <!-- Region map -->
-    <section class="section" id="regions">
-      <h2>Explore the Regions</h2>
-      <p>Each part of the peninsula has its own character. Here is a rough map
-         of the mainland regions, plus the island of Jeju:</p>
+    <section class="section" id="stack">
+      <h2><span class="section-label">04 / Stack</span>Stack</h2>
 
-      <div class="korea-map" id="korea-map">
-        <!-- Region cards are built by script.js from the regions array (Exercises 2B & 3A) -->
+      <div class="stack-grid" id="stack-grid">
+        <!-- Cards are built by script.js from the stack array -->
       </div>
 
-      <div class="region-explorer">
-        <label for="region-select" class="form-label fw-bold">Want a closer look? Pick a region:</label>
-        <select id="region-select" class="form-select"></select>
-        <div id="region-detail" class="region-detail"></div>
+      <div class="stack-explorer">
+        <label for="stack-select">Pick one for the detail:</label>
+        <select id="stack-select"></select>
+        <div id="stack-detail" class="stack-detail"></div>
       </div>
+
+      <p class="certs">Microsoft AZ-900, SC-900, MS-900, MB-901, PL-900 &middot;
+         Google Cloud Generative AI Leader (2026) &middot;
+         Google Cloud Professional Cloud Architect (in progress)</p>
     </section>
 
-    <!-- Photo gallery with a click-to-enlarge lightbox -->
-    <section class="section" id="gallery">
-      <h2>Postcards from Korea</h2>
-      <p>Click any picture for a closer look.</p>
+    <!-- 05 / Photos. Six slots for v1; the lightbox wires itself to the images
+         once they are in img/. Candidates in content.md: Osan, Luke, Seoul,
+         On set (Korean TV), Hyrox, Stern, Singapore, Microsoft. -->
+    <section class="section" id="photos">
+      <h2><span class="section-label">05 / Photos</span>Photos</h2>
+      <p class="lede todo">TODO pick six of the eight candidates in content.md and write a
+         one-line caption for each.</p>
+
       <div class="gallery-grid">
         <figure>
-          <img src="img/seoul.jpg" alt="Seoul skyline at night" data-caption="Seoul at night, with N Seoul Tower above the skyline" loading="lazy">
-          <figcaption>Seoul Nights</figcaption>
+          <div class="photo-slot"><span class="todo">TODO photo 1</span></div>
+          <figcaption class="todo">TODO caption</figcaption>
         </figure>
         <figure>
-          <img src="img/jeju.jpg" alt="Jeju Island coast at sunset" data-caption="Sunset over the Jeju coast and Seongsan Ilchulbong" loading="lazy">
-          <figcaption>Jeju Coast</figcaption>
+          <div class="photo-slot"><span class="todo">TODO photo 2</span></div>
+          <figcaption class="todo">TODO caption</figcaption>
         </figure>
         <figure>
-          <img src="img/autumn.jpg" alt="Temple among autumn foliage" data-caption="A mountain temple wrapped in October color" loading="lazy">
-          <figcaption>Autumn Temples</figcaption>
+          <div class="photo-slot"><span class="todo">TODO photo 3</span></div>
+          <figcaption class="todo">TODO caption</figcaption>
         </figure>
         <figure>
-          <img src="img/winter.jpg" alt="Snowy mountain peaks in Gangwon" data-caption="Snowfall over the peaks of Gangwon" loading="lazy">
-          <figcaption>Gangwon Winter</figcaption>
+          <div class="photo-slot"><span class="todo">TODO photo 4</span></div>
+          <figcaption class="todo">TODO caption</figcaption>
         </figure>
         <figure>
-          <img src="img/food.jpg" alt="Korean BBQ table with side dishes" data-caption="A Korean BBQ table ringed with banchan" loading="lazy">
-          <figcaption>The Table</figcaption>
+          <div class="photo-slot"><span class="todo">TODO photo 5</span></div>
+          <figcaption class="todo">TODO caption</figcaption>
         </figure>
         <figure>
-          <img src="img/palace.jpg" alt="Palace gate at dusk" data-caption="A palace gate glowing at dusk" loading="lazy">
-          <figcaption>Palace at Dusk</figcaption>
+          <div class="photo-slot"><span class="todo">TODO photo 6</span></div>
+          <figcaption class="todo">TODO caption</figcaption>
         </figure>
       </div>
+    </section>
+
+    <section class="section" id="contact">
+      <h2><span class="section-label">06 / Contact</span>Get in touch.</h2>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Email</h3>
+          <!-- TODO email address (content.md). Once it is here, put it in data-copy
+               and remove the disabled attribute on the button. -->
+          <p class="todo">TODO email address</p>
+          <button class="button copy-email" data-copy="" disabled>Copy email</button>
+        </div>
+
+        <div class="contact-card">
+          <h3>Resume</h3>
+          <p><a href="resume.pdf">Download the PDF</a></p>
+          <p class="todo">TODO resume.pdf is not in the repo yet</p>
+        </div>
+
+        <div class="contact-card">
+          <h3>Elsewhere</h3>
+          <p><a href="https://github.com/mariopeterson">GitHub</a></p>
+          <!-- TODO LinkedIn URL (content.md) -->
+          <p class="todo">TODO LinkedIn</p>
+        </div>
+      </div>
+
+      <p class="services">Open to select consulting on AI automation and partner programs.</p>
     </section>
   </main>
 
-  <!-- Plan your visit -->
-  <section class="container my-5" id="visit">
-    <h2 class="bs-heading">Plan Your Visit</h2>
-    <p class="text-muted">A few things worth knowing before you go.</p>
-
-    <div class="row g-4">
-      <div class="col-md-4">
-        <div class="card h-100 shadow-sm">
-          <div class="card-body" id="when-to-go">
-            <h3 class="card-title h5">When to Go</h3>
-            <p class="card-text">Spring paints the country in cherry blossoms,
-              while autumn sets the mountains ablaze with color. Both are ideal
-              seasons to travel.</p>
-            <a href="#" class="btn btn-primary">Best seasons</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card h-100 shadow-sm">
-          <div class="card-body">
-            <h3 class="card-title h5">Getting Around</h3>
-            <p class="card-text">The KTX high-speed rail links major cities in a
-              flash, and a single rechargeable T-money card covers subways, buses,
-              and even taxis.</p>
-            <a href="#" class="btn btn-primary">Transit tips</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card h-100 shadow-sm">
-          <div class="card-body">
-            <h3 class="card-title h5">Local Etiquette</h3>
-            <p class="card-text">Bow slightly to greet, remove your shoes indoors,
-              and offer or receive items with two hands. Small gestures go a long
-              way here.</p>
-            <a href="#" class="btn btn-primary">Good manners</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- Footer -->
   <footer class="site-footer">
-    <div class="brand">Discover <span>Korea</span></div>
-    <div class="copyright">&copy; <span id="year">2026</span> Discover Korea</div>
-    <nav class="social">
-      <a href="#">Instagram</a>
-      <a href="#">YouTube</a>
-      <a href="#">KakaoTalk</a>
+    <div class="brand">Mario <span>Peterson</span></div>
+    <div class="copyright">&copy; <span id="year">2026</span> Mario Peterson</div>
+    <nav class="social" aria-label="Elsewhere">
+      <!-- TODO LinkedIn, Instagram, YouTube URLs (content.md) -->
+      <a href="https://github.com/mariopeterson">GitHub</a>
+      <span class="todo">TODO LinkedIn</span>
+      <span class="todo">TODO Instagram</span>
+      <span class="todo">TODO YouTube</span>
     </nav>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- Exercise 4B: GSAP (GreenSock Animation Platform) + ScrollTrigger plugin -->
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
   <script src="script.js"></script>
