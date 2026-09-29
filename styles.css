@@ -108,8 +108,9 @@ h3 { font-weight: 500; }
 /* Sticky-nav offset for smooth scrolling */
 section[id], main [id] { scroll-margin-top: 76px; }
 
-/* --- Hero: two columns, photo right --- */
-.hero {
+/* --- Hero: dark band, full width; photo sits in its own element --- */
+.hero { background: #1a1815; }
+.hero-inner {
   min-height: 92vh;
   display: grid;
   grid-template-columns: 1fr minmax(380px, 40%);
@@ -123,6 +124,7 @@ section[id], main [id] { scroll-margin-top: 76px; }
   font-size: clamp(2.25rem, 6.5vw, 4.25rem);
   margin: 0 0 .3em;
   line-height: 1.05;
+  color: var(--paper);
 }
 .hero-photo {
   width: 100%;
@@ -138,6 +140,7 @@ section[id], main [id] { scroll-margin-top: 76px; }
   max-width: 46ch;
   font-size: 1.15rem;
   margin: 0;
+  color: #cfc9bd;
 }
 .positioning::after {
   content: "";
@@ -151,7 +154,7 @@ section[id], main [id] { scroll-margin-top: 76px; }
   display: inline-block;
   margin-top: 40px;
   font-size: 1.4rem;
-  color: var(--gray);
+  color: #8b857a;
   text-decoration: none;
 }
 .hero .scroll:hover { color: var(--accent); }
@@ -406,7 +409,7 @@ section[id], main [id] { scroll-margin-top: 76px; }
 
 /* --- Hero stacks early, photo first --- */
 @media (max-width: 900px) {
-  .hero {
+  .hero-inner {
     grid-template-columns: 1fr;
     gap: 36px;
     min-height: 0;
@@ -426,7 +429,7 @@ section[id], main [id] { scroll-margin-top: 76px; }
     padding-top: 14px;
   }
   .site-nav.nav-open .nav-links { display: flex; }
-  .hero { padding: 48px 20px 64px; }
+  .hero-inner { padding: 48px 20px 64px; }
   .wrapper { padding: 0 20px; }
   .section { padding: 56px 0; }
   .nav-tabs .nav-link { margin-right: 20px; }
