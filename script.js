@@ -34,12 +34,12 @@ pageLinks.forEach(function (link) {
 // Copy comes from content.md.
 const facts = [
   "Enlisted in the U.S. Air Force straight out of high school",
-  "Learned Korean at Osan Air Base and now speaks it at a professional level",
+  "Speaks Korean at a professional working level",
   "Has acting credits on Korean television",
   "Grew a partner book in India from about $600K to $1.3M",
-  "Gilman Scholar; spent a semester in Singapore",
-  "Trains for Hyrox",
-  "Also speaks Spanish"
+  "Gilman Scholarship recipient; studied a semester at Nanyang Technological University in Singapore",
+  "Competes in HYROX",
+  "Fluent in Spanish"
 ];
 const factText = document.getElementById("fact-text");
 
@@ -53,20 +53,20 @@ showRandomFact(); // show one as soon as the page loads
 // ----- 04 / Stack -----
 // One array of objects drives both the grid and the picker.
 const stack = [
-  { name: "Microsoft ecosystem",
-    desc: "Five years, enterprise customer success and OEM partner management. Azure, M365, Dynamics, Power Platform fundamentals certified.",
+  { name: "Microsoft",
+    desc: "Customer Success Account Manager, then Partner Account Manager, 2020 to 2025. Azure, Microsoft 365, Dynamics, Power Platform.",
     detail: "" },
   { name: "Google Cloud",
-    desc: "Generative AI Leader certified (Jan 2026). Professional Cloud Architect in progress.",
+    desc: "Generative AI Leader certified. Professional Cloud Architect in progress.",
     detail: "" },
   { name: "n8n",
-    desc: "Automation and agent workflows. Prue Care Agent.",
+    desc: "Workflow automation and agents. Built the Prue Care Agent with it.",
     detail: "" },
   { name: "Claude Code",
-    desc: "How I build. This site, K-Compliance Agent.",
+    desc: "Built this site and the K-Compliance Agent with it.",
     detail: "" },
-  { name: "Korean",
-    desc: "Professional level. Osan, Korean TV, Seoul.",
+  { name: "ChatGPT",
+    desc: "Research, drafting, and rapid prototyping.",
     detail: "" }
 ];
 

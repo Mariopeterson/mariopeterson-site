@@ -131,7 +131,7 @@ section[id], main [id] { scroll-margin-top: 76px; }
   font-weight: 600;
   letter-spacing: .04em;
   color: var(--paper);
-  background: var(--accent);
+  background: #8f1d26;
   padding: .3em .38em;
   border-radius: 2px;
   transform: rotate(-4deg) translateY(-.5em);
@@ -241,6 +241,13 @@ section[id], main [id] { scroll-margin-top: 76px; }
 }
 .takes-tab-content { padding: 24px 0 0; }
 .takes-tab-content p { margin: 0 0 12px; }
+.takes-soon {
+  font-family: var(--mono);
+  font-size: .74rem;
+  letter-spacing: .04em;
+  color: var(--gray);
+  margin-top: 20px;
+}
 
 /* --- 03 / Path: vertical timeline. One rail, small markers, no glow --- */
 .timeline {
@@ -286,15 +293,6 @@ section[id], main [id] { scroll-margin-top: 76px; }
   letter-spacing: .03em;
   color: var(--gray);
   margin-top: 10px;
-}
-
-.thesis {
-  margin: 32px 0 0;
-  font-family: var(--serif);
-  font-weight: 500;
-  font-size: 1.3rem;
-  line-height: 1.4;
-  max-width: 46ch;
 }
 
 /* --- 04 / Stack: two ruled columns, no boxes --- */

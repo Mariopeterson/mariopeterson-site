@@ -18,18 +18,18 @@ Scroll cue text: ↓
 
 ## Intro
 
-Heading: The short version
-Copy (drafted by Claude 2026-09-29, Mario to correct; leads with now, military as backstory per Mario):
-I build AI tools and I know how to sell them. The last five years were the Microsoft ecosystem: enterprise customer success across the US and Canada, then building the OEM partner motion across India and ANZ. In May I finished my Tech MBA at NYU Stern. Underneath it all runs Korea: the Air Force sent me there at nineteen, I learned the language, and it never let go. Now I build the tools I used to only sell.
+Heading: About
+Copy (rewritten 2026-09-29 evening per Mario's voice notes: official register, name the employer and titles plainly, no "ecosystem", no Korean-learning claim, building framed as an also, not the occupation):
+I spent five years at Microsoft Corporation, first as a Customer Success Account Manager for enterprise accounts across the US and Canada, then as a Partner Account Manager managing a book of OEM partners across India and ANZ. I completed my MBA at NYU Stern in May 2026. My strengths are executive communication, deal negotiation, and enterprise customer success. It all started when I enlisted in the Air Force at 18. I also build: AI agents, automations, and this site.
 
 Rotating facts (button: "Show me another"). Keep them true, short, and a little surprising. TODO confirm each:
 - Enlisted in the U.S. Air Force straight out of high school
-- Learned Korean at Osan Air Base and now speaks it at a professional level
+- Speaks Korean at a professional working level
 - Has acting credits on Korean television
 - Grew a partner book in India from about $600K to $1.3M
-- Gilman Scholar; spent a semester in Singapore
-- Trains for Hyrox
-- Also speaks Spanish
+- Gilman Scholarship recipient; studied a semester at Nanyang Technological University in Singapore
+- Competes in HYROX
+- Fluent in Spanish
 - TODO add three more
 
 ---
@@ -89,17 +89,13 @@ Videos: TODO
 
 ## 03 / Path (the timeline)
 
-There is no separate About section; this section does that work. Vertical timeline (decision 2026-09-29: replaces the carousel and the planned glowing horizontal version; calm, no glow, no Hangeul labels, no base names). Each step: years in mono, title, one human line, one mono receipt line of resume numbers.
+Vertical timeline, NEWEST FIRST (Mario, 2026-09-29 evening). Official employer and school names, no base names, no Korean-learning line ("learned Korean on the job" is not accurate), no "Now" step, and the thesis line is removed for good (Mario: corny).
 
-1. 2013-2017 / U.S. Air Force / Enlisted out of high school. Logistics for F-16 and F-35 squadrons, stationed in South Korea and Arizona. Learned Korean on the job. / 123,000 parts, $189M managed, innovation award
-2. 2017-2019 / University of Illinois / BS Finance on the GI Bill. A Gilman Scholarship put me in Singapore for a semester: first time seeing Asia as a career, not a deployment. / BS Finance, Gilman Scholar
-3. 2020-2023 / Microsoft, enterprise / Customer success for enterprise accounts across the US and Canada. / 15+ accounts, 30,000+ users, 100% renewals across $4M+ ACV
-4. 2023-2025 / Microsoft, OEM partnerships / Built the OEM partner motion across India and ANZ. / $5M+ partner revenue, India book $600K to $1.3M, 250% of target in ANZ
-5. 2024-2026 / NYU Stern / Tech MBA in Strategy and Tech Innovation, finished while still running the partner book. Dean's List. / Tech MBA, Dean's List, May 2026
-6. 2026 / Now / Building AI tools. Partnerships and customer success at AI-forward companies. Seoul on the horizon. / K-Compliance Agent, Prue Care Agent
-
-Thesis line, shown after the last step:
-None of this needed a connection or a pedigree. It needed knowing the doors existed.
+1. 2025-2026 / NYU Stern / Tech-focused MBA in Strategy and Tech Innovation. Now based in New York City. / Tech MBA, Dean's List, May 2026
+2. 2023-2025 / Microsoft Corporation / Partner Account Manager, OEM and Digital Partnerships. Managed a book of OEM partners across India and ANZ. / $5M+ partner revenue, India book $600K to $1.3M, 250% of FY24 target in ANZ
+3. 2020-2023 / Microsoft Corporation / Customer Success Account Manager for enterprise accounts across the US and Canada. / 15+ accounts, 30,000+ users, 100% renewals across $4M+ ACV
+4. 2017-2019 / University of Illinois at Urbana-Champaign / Bachelor of Science in Finance. Gilman Scholarship recipient; spent a semester at Nanyang Technological University in Singapore. / Gies College of Business, December 2019
+5. 2013-2017 / U.S. Air Force / Enlisted after high school; saw it as the chance to gain operational discipline. Ran logistics for F-16 and F-35 squadrons, keeping aircraft mission-ready. / 123,000 parts, $189M managed, innovation award
 
 ---
 
@@ -107,21 +103,21 @@ None of this needed a connection or a pedigree. It needed knowing the doors exis
 
 Each: name, one line, detail on select.
 
-- Microsoft ecosystem: Five years, enterprise customer success and OEM partner management. Azure, M365, Dynamics, Power Platform fundamentals certified. / Detail: TODO
-- Google Cloud: Generative AI Leader certified (Jan 2026). Professional Cloud Architect in progress. / Detail: TODO
-- n8n: Automation and agent workflows. Prue Care Agent. / Detail: TODO
-- Claude Code: How I build. This site, K-Compliance Agent. / Detail: TODO
-- Korean: Professional level. Osan, Korean TV, Seoul. / Detail: TODO
-- TODO Spanish? Finance?
+- Microsoft: Customer Success Account Manager, then Partner Account Manager, 2020 to 2025. Azure, Microsoft 365, Dynamics, Power Platform. / Detail: TODO
+- Google Cloud: Generative AI Leader certified. Professional Cloud Architect in progress. / Detail: TODO
+- n8n: Workflow automation and agents. Built the Prue Care Agent with it. / Detail: TODO
+- Claude Code: Built this site and the K-Compliance Agent with it. / Detail: TODO
+- ChatGPT: Research, drafting, and rapid prototyping. (Claude's draft wording, Mario to confirm) / Detail: TODO
+- Korean entry removed from Stack (Mario, 2026-09-29 evening)
 
 ---
 
 ## 05 / Photos
 
 Six live as of 2026-09-29, chronological. Captions drafted by Claude, Mario to correct (guesses marked):
-1. img/graduation.jpg - "Basic training graduation, 2013. Day one." (year is a guess from the 2013 enlistment)
+1. img/graduation.jpg - "Basic training graduation, 2013." (Mario: this IS the graduation photo, not day one)
 2. img/gimbap.jpg - "First tour in South Korea. First gimbap, too." ("first" is a guess)
-3. img/award.jpg - "Innovation award for redesigning a hazmat tracking system." (photo restored from a low-res original)
+3. img/award.jpg - "Promotion day, and an innovation award for redesigning hazmat tracking." (Mario: the photo is his promotion, where he also received the innovation award)
 4. img/tv-waiter.jpg - "On set for a Korean drama. I act when I get the chance." (framed as a free-time hobby per Mario; no network names on the site)
 5. img/tv-police.jpg - "Different day, different role." (no network names on the site, per Mario 2026-09-29)
 6. img/crossfit.jpg - "Training day with the crew in Korea." (location is a guess)
