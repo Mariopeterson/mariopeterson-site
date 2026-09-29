@@ -241,13 +241,6 @@ section[id], main [id] { scroll-margin-top: 76px; }
 }
 .takes-tab-content { padding: 24px 0 0; }
 .takes-tab-content p { margin: 0 0 12px; }
-.takes-note {
-  font-family: var(--mono);
-  font-size: .74rem;
-  letter-spacing: .04em;
-  color: var(--gray);
-  margin-top: 20px;
-}
 
 /* --- 03 / Path: vertical timeline. One rail, small markers, no glow --- */
 .timeline {

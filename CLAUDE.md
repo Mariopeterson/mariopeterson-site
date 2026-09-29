@@ -74,10 +74,12 @@ reference/ is gitignored. It is licensed course material and must never be commi
 ## Files
 
 - index.html, styles.css, script.js: the site
+- vendor/: Bootstrap 5.3.3 and GSAP 3.12.5, self-hosted (2026-09-29) so no third-party script runs on the page; update by copying new dist files from npm, never by CDN link
+- Analytics: GoatCounter (cookieless), script tag in index.html, dashboard at mariopeterson.goatcounter.com
 - content.md: all copy and facts; the single source of truth
 - img/: photos, optimized, no larger than 300KB each
 - work/<slug>.html: case study pages
-- resume.html and resume.pdf
+- resume.html only. resume.pdf was removed 2026-09-29: it published Mario's phone number. The web resume carries email and LinkedIn, no phone. Never commit a resume file with the phone number.
 - reference/: Class Files and PDFs (gitignored)
 
 ## Workflow

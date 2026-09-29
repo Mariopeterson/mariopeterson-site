@@ -75,7 +75,7 @@ Tabs:
 
 ### Tech
 Intro (TODO): Google vs Microsoft, GCP vs Azure, what the enterprise sale actually looks like from inside.
-Videos: TODO (title, URL, one-line description each)
+Videos: none yet. Decision 2026-09-29: the section stays live with its tab intros and no coming-soon line; Mario wants it as a commitment device and future audience surface (possibly a subscribe button later).
 
 ### Veteran transition
 Intro (TODO): For enlisted people who think this life is out of reach. It isn't. Here is how the doors work.
@@ -122,8 +122,8 @@ Six live as of 2026-09-29, chronological. Captions drafted by Claude, Mario to c
 1. img/graduation.jpg - "Basic training graduation, 2013. Day one." (year is a guess from the 2013 enlistment)
 2. img/gimbap.jpg - "First tour in South Korea. First gimbap, too." ("first" is a guess)
 3. img/award.jpg - "Innovation award for redesigning a hazmat tracking system." (photo restored from a low-res original)
-4. img/tv-waiter.jpg - "On set for Korean TV." (show/year unknown, Mario to add)
-5. img/tv-police.jpg - "Playing a police officer on MBC." (MBC read from the broadcast watermark)
+4. img/tv-waiter.jpg - "On set for a Korean drama. I act when I get the chance." (framed as a free-time hobby per Mario; no network names on the site)
+5. img/tv-police.jpg - "Different day, different role." (no network names on the site, per Mario 2026-09-29)
 6. img/crossfit.jpg - "Training day with the crew in Korea." (location is a guess)
 Hero: img/mario-hero.jpg, Barcelona (location is a guess from the cathedral; year unknown)
 
@@ -135,7 +135,7 @@ Three cards for v1: email, resume PDF, LinkedIn + GitHub. No form in v1; a form 
 
 Heading (TODO): Get in touch.
 Email: Mariopetersonjr@hotmail.com
-Resume: resume.pdf
+Resume: resume.html (web version, no phone number; resume.pdf removed 2026-09-29 because it published the phone number)
 LinkedIn: https://www.linkedin.com/in/mariofpeterson/
 GitHub: https://github.com/mariopeterson
 Services line (draft): Open to select consulting on AI automation and partner programs.
