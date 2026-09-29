@@ -7,7 +7,7 @@ Single source of truth for every word on the site. Claude Code reads from here a
 ## Hero
 
 Name: Mario Peterson
-Korean: none. Decision 2026-09-29: no Hangeul anywhere on the site. A red seal-stamp "MP" mark next to the name carries the Korea nod instead.
+Korean: none. Decision 2026-09-29: no Hangeul anywhere on the site. The red MP seal mark was removed the same day (Mario: too loud); the favicon still carries the MP mark in the browser tab.
 Positioning line:
 Partnerships and customer success, with the hands to build what I sell.
 
@@ -22,15 +22,7 @@ Heading: About
 Copy (rewritten 2026-09-29 evening per Mario's voice notes: official register, name the employer and titles plainly, no "ecosystem", no Korean-learning claim, building framed as an also, not the occupation):
 I spent five years at Microsoft Corporation, first as a Customer Success Account Manager for enterprise accounts across the US and Canada, then as a Partner Account Manager managing a book of OEM partners across India and ANZ. I completed my MBA at NYU Stern in May 2026. My strengths are executive communication, deal negotiation, and enterprise customer success. It all started when I enlisted in the Air Force at 18. I also build: AI agents, automations, and this site.
 
-Rotating facts (button: "Show me another"). Keep them true, short, and a little surprising. TODO confirm each:
-- Enlisted in the U.S. Air Force straight out of high school
-- Speaks Korean at a professional working level
-- Has acting credits on Korean television
-- Grew a partner book in India from about $600K to $1.3M
-- Gilman Scholarship recipient; studied a semester at Nanyang Technological University in Singapore
-- Competes in HYROX
-- Fluent in Spanish
-- TODO add three more
+Rotating facts: removed entirely 2026-09-29 (Mario: the Show me another button is weird, and the stray fact line under About read badly). Do not bring it back.
 
 ---
 

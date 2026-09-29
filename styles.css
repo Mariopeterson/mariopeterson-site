@@ -124,18 +124,6 @@ section[id], main [id] { scroll-margin-top: 76px; }
   margin: 0 0 .3em;
   line-height: 1.05;
 }
-.seal {
-  display: inline-block;
-  font-family: var(--serif);
-  font-size: .3em;
-  font-weight: 600;
-  letter-spacing: .04em;
-  color: var(--paper);
-  background: #8f1d26;
-  padding: .3em .38em;
-  border-radius: 2px;
-  transform: rotate(-4deg) translateY(-.5em);
-}
 .hero-photo {
   width: 100%;
   aspect-ratio: 5 / 6;
@@ -199,10 +187,6 @@ section[id], main [id] { scroll-margin-top: 76px; }
 }
 .button:hover { color: var(--accent); border-color: var(--accent); }
 .button:disabled { color: var(--gray); border-color: var(--rule); cursor: not-allowed; }
-
-/* --- Rotating fact --- */
-.fact-box { margin-top: 36px; }
-.fact-box p { margin: 0 0 16px; }
 
 /* --- 01 / Work: an open list, ruled between entries --- */
 .work-grid { margin-top: 32px; }

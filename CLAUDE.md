@@ -14,7 +14,7 @@ Audience, in priority order:
 ## Rules
 
 - Content comes from content.md. Never invent copy, facts, project descriptions, or quotes. If content.md is missing something, leave a clearly marked TODO in the HTML and say so; do not fill the gap.
-- Start from what exists. Keep the structure of index.html, styles.css, and script.js. Reuse the components already built there: hamburger nav, smooth scroll, rotating fact button, tabs, carousel, region map, lightbox, reveal-on-scroll. Do not rebuild them from scratch.
+- Start from what exists. Keep the structure of index.html, styles.css, and script.js. Reuse the components already built there: hamburger nav, smooth scroll, tabs, lightbox, reveal-on-scroll (the rotating fact button was removed 2026-09-29 at Mario’s request; do not reintroduce it). Do not rebuild them from scratch.
 - When a new layout is needed, use a pattern from reference/Class Files (see map below). Do not invent a layout when a Class Files pattern exists.
 - Use the techniques from reference/, never the visual design. No Noble fonts, colors, images, or copy survive.
 - Vanilla HTML, CSS, JS. No frameworks, no build step, no Tailwind, no component libraries. Bootstrap (the carousel, plus container and my-5 utilities) and GSAP (the scroll reveals) are already in the Korea site; keep them only where a component depends on them, and remove Bootstrap utility classes from new markup. Prefer plain CSS Grid and Flexbox.

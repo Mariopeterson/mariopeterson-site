@@ -30,26 +30,6 @@ pageLinks.forEach(function (link) {
   link.addEventListener("click", smoothScrollTo);
 });
 
-// ----- Rotating fact -----
-// Copy comes from content.md.
-const facts = [
-  "Enlisted in the U.S. Air Force straight out of high school",
-  "Speaks Korean at a professional working level",
-  "Has acting credits on Korean television",
-  "Grew a partner book in India from about $600K to $1.3M",
-  "Gilman Scholarship recipient; studied a semester at Nanyang Technological University in Singapore",
-  "Competes in HYROX",
-  "Fluent in Spanish"
-];
-const factText = document.getElementById("fact-text");
-
-function showRandomFact() {
-  const randomIndex = Math.floor(Math.random() * facts.length);
-  factText.textContent = facts[randomIndex];
-}
-document.getElementById("fact-btn").addEventListener("click", showRandomFact);
-showRandomFact(); // show one as soon as the page loads
-
 // ----- 04 / Stack -----
 // One array of objects drives both the grid and the picker.
 const stack = [
