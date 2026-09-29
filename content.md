@@ -8,9 +8,8 @@ Single source of truth for every word on the site. Claude Code reads from here a
 
 Name: Mario Peterson
 Korean: none. Decision 2026-09-29: no Hangeul anywhere on the site. The red MP seal mark was removed the same day (Mario: too loud); the favicon still carries the MP mark in the browser tab.
-Positioning line (2026-09-29 evening, Mario wanted it less career-pointed, more whole-person; Claude draft, Mario may swap):
-I like hard problems, new languages, and building things that work.
-Alternates offered: "Operator by trade, builder by habit." / "New York City, by way of the Air Force, Korea, and Microsoft."
+Positioning line (final, Mario picked it 2026-09-29 from five options; plain facts, no slogan, nothing memeable):
+Based in New York. Most recently Microsoft, then an MBA at NYU Stern.
 
 Photo: img/mario-hero.jpg (Barcelona night street, cropped 5:6)
 Scroll cue text: ↓
