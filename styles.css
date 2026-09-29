@@ -129,6 +129,10 @@ section[id], main [id] { scroll-margin-top: 76px; }
   aspect-ratio: 5 / 6;
   object-fit: cover;
   border-radius: 2px;
+  background: #fff;
+  padding: 10px;
+  border: 1px solid var(--rule);
+  box-shadow: 0 1px 2px rgba(22, 22, 22, .06);
 }
 .positioning {
   max-width: 46ch;
@@ -291,29 +295,6 @@ section[id], main [id] { scroll-margin-top: 76px; }
 .stack-card:nth-child(n+3) { border-top: 1px solid var(--rule); }
 .stack-card h3 { margin: 0 0 8px; font-size: 1.15rem; }
 .stack-card p { margin: 0; font-size: .92rem; color: var(--gray); }
-
-.stack-explorer { margin-top: 36px; max-width: 520px; }
-.stack-explorer label {
-  display: block;
-  font-size: .92rem;
-  font-weight: 500;
-  color: var(--gray);
-  margin-bottom: 10px;
-}
-.stack-explorer select {
-  width: 100%;
-  font-family: var(--sans);
-  font-size: 1rem;
-  color: var(--ink);
-  background: var(--paper);
-  border: 1px solid var(--ink);
-  border-radius: 2px;
-  padding: 10px 12px;
-}
-.stack-detail { margin-top: 20px; }
-.stack-detail h3 { margin: 0 0 6px; font-size: 1.15rem; }
-.stack-detail p { margin: 0 0 6px; }
-.stack-detail p:last-child { margin-bottom: 0; }
 
 .certs {
   margin-top: 36px;

@@ -67,26 +67,6 @@ for (let i = 0; i < stack.length; i++) {
   stackGrid.appendChild(card);
 }
 
-const stackSelect = document.getElementById("stack-select");
-for (let i = 0; i < stack.length; i++) {
-  const option = document.createElement("option");
-  option.value = i;
-  option.textContent = stack[i].name;
-  stackSelect.appendChild(option);
-}
-
-const stackDetail = document.getElementById("stack-detail");
-function showStackDetail() {
-  const item = stack[stackSelect.value];
-  const detail = item.detail ? '<p>' + item.detail + '</p>' : '';
-  stackDetail.innerHTML =
-    "<h3>" + item.name + "</h3>" +
-    "<p>" + item.desc + "</p>" +
-    detail;
-}
-stackSelect.addEventListener("change", showStackDetail);
-showStackDetail(); // populate with the first item on load
-
 // ----- 05 / Photos: click an image to enlarge it -----
 // No images yet; this wires itself up as soon as they are in the gallery.
 const galleryImages = document.querySelectorAll(".gallery-grid img");

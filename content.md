@@ -93,7 +93,7 @@ Vertical timeline, NEWEST FIRST (Mario, 2026-09-29 evening). Official employer a
 
 ## 04 / Stack
 
-Each: name, one line, detail on select.
+Each: name, one line. (The pick-one-for-detail dropdown was removed 2026-09-29: its detail panel had nothing beyond the card text. Do not bring it back unless real detail copy exists.)
 
 - Microsoft: Customer Success Account Manager, then Partner Account Manager, 2020 to 2025. Azure, Microsoft 365, Dynamics, Power Platform. / Detail: TODO
 - Google Cloud: Generative AI Leader certified. Professional Cloud Architect in progress. / Detail: TODO
