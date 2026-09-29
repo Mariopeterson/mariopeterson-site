@@ -29,13 +29,13 @@ Audience, in priority order:
 Direction: precision and restraint, with warmth from the Korea layer and Mario himself as the human element. Editorial, light, documentary. Not a dark developer portfolio, not a travel site.
 
 - Palette: warm paper background (#f7f4ee), near-black ink (#161616), one accent: deep red (#b8232f) used only for the section labels, the glowing timeline markers, active nav state, one rule under the positioning line, and link hover. Mid gray (#6b6b6b) for metadata. Nothing else. No gradients.
-- Type: IBM Plex family via Google Fonts. Plex Serif for headings (h1, h2, h3) and the thesis line at weight 500–600; Plex Sans for body, UI, and section labels; Plex Mono only for dates, photo captions, the certifications line, and TODO placeholders; Plex Sans KR for any Korean text. No other fonts. Headings are tight; body is 400 at 1.05rem, line-height 1.65.
+- Type: Pretendard (jsDelivr CDN) for body, UI, and section labels; IBM Plex Serif for headings (h1, h2, h3) and the thesis line at weight 500-600; IBM Plex Mono only for dates, timeline years and receipts, photo captions, and the certifications line. No other fonts. Decision 2026-09-29: no Korean text anywhere on the site, so no Korean font family. Headings are tight; body is 400 at 1.05rem, line-height 1.65.
 - Structure: visible grid. Hairline rules (1px, #e5e2dc) between sections and between entries in a list; never around a card. Section labels are the number and the name in small caps, Plex Sans 500, accent, letter-spacing 0.06em: "01 / Work". Each section heading carries a real `<span class="section-label">01 / Work</span>` inside it; adding those spans to index.html is approved. Case studies numbered.
 - Cards: no borders, no drop shadows, no boxes. Work, stack, and contact entries are open lists separated by 1px rules. Square corners or a 2px radius at most wherever a frame is genuinely unavoidable.
 - Buttons: square, a 1px ink border, sentence case in Plex Sans or Plex Serif. Never mono caps.
 - Hero: two columns on desktop, name and positioning line on the left, photo on the right at a 5:6 ratio and at least 380px wide. Stacked on mobile, photo first. The 64px accent rule sits under the positioning line.
 - Motion: fade-up on scroll (already in script.js), hover states, smooth scroll. Nothing else. No parallax, no floating shapes, no typewriter effects, no particle backgrounds.
-- The signature interaction is the decision timeline in 03 / PATH: a horizontal line with glowing red markers (soft box-shadow pulse, once, on reveal; steady glow after). Click a marker to expand that step. This is the only place the "glow" appears. There is no separate About section; 03 / PATH does that work.
+- The signature section is the vertical timeline in 03 / PATH: a hairline rail, small steady red markers (no glow, no pulse; decision 2026-09-29 replacing the earlier glowing horizontal concept), years and receipt lines in mono, steps fading up on scroll. There is no separate About section; 03 / PATH does that work. Military content stays one step among six, never the lead (Mario, 2026-09-29).
 - Imagery: real photos of Mario and his actual places. No stock, no illustrations, no icons, no emoji, no AI-generated images.
 - Dark mode: a toggle in the nav, off by default. Same palette inverted; accent unchanged.
 
@@ -45,11 +45,11 @@ Do not do: rounded pill buttons, glassmorphism, gradient text, icon grids, three
 
 | Korea section | Becomes | Component kept |
 |---|---|---|
-| Hero "Discover Korea 대한민국" | Name, Korean transliteration under it, positioning line, photo, scroll cue (↓) | hero, scroll link |
+| Hero "Discover Korea" | Name with red MP seal mark, positioning line, photo, scroll cue (↓). No Korean transliteration (2026-09-29) | hero, scroll link |
 | Intro + "Did you know?" | Short version of the path; rotating fact about Mario | fact-btn / showRandomFact |
 | Culture & Heritage | 01 / WORK: things he has built | two-column text + image |
 | Food tabs | 02 / TAKES: tabs for Tech, Veteran transition, Korea; each tab a short intro and one video | tabs |
-| Glimpses carousel | 03 / PATH: the decision timeline (see Style); carousel cards become timeline steps with Hangul labels | carousel → timeline |
+| Glimpses carousel | 03 / PATH: the vertical decision timeline (see Style); no Hangul labels (2026-09-29) | carousel → timeline |
 | Regions map + picker | 04 / STACK: Microsoft, Google Cloud, n8n, Claude Code, Korean; pick one to see detail | region grid + select |
 | — (new) | Certifications strip: one line in Plex Mono, directly under 04 / STACK | plain text line |
 | Postcards lightbox | 05 / PHOTOS: six photos for v1, Mario's pick from the eight candidates in content.md | gallery-grid + lightbox |

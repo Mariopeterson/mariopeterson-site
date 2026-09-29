@@ -7,19 +7,20 @@ Single source of truth for every word on the site. Claude Code reads from here a
 ## Hero
 
 Name: Mario Peterson
-Korean: 마리오 피터슨
-Positioning line (draft, TODO rewrite in your words):
-Air Force logistics to Microsoft to Stern to building AI tools. Partnerships and customer success, with the hands to build what I sell.
+Korean: none. Decision 2026-09-29: no Hangeul anywhere on the site. A red seal-stamp "MP" mark next to the name carries the Korea nod instead.
+Positioning line:
+Partnerships and customer success, with the hands to build what I sell.
 
-Photo: TODO (img/mario-hero.jpg, real photo, not a headshot)
+Photo: img/mario-hero.jpg (Barcelona night street, cropped 5:6)
 Scroll cue text: ↓
 
 ---
 
 ## Intro
 
-Short version of the path (draft, TODO):
-I enlisted in the Air Force out of high school and spent my years in logistics, keeping F-16s and F-35s supplied at Luke and at Osan, where I learned Korean. The GI Bill got me to Illinois for finance, a Gilman scholarship got me to Singapore, and from there I spent five years in the Microsoft ecosystem: enterprise customer success in the US and Canada, then building the OEM partner motion across India and ANZ. I finished my MBA at NYU Stern in May. Now I build the tools I used to only sell.
+Heading: The short version
+Copy (drafted by Claude 2026-09-29, Mario to correct; leads with now, military as backstory per Mario):
+I build AI tools and I know how to sell them. The last five years were the Microsoft ecosystem: enterprise customer success across the US and Canada, then building the OEM partner motion across India and ANZ. In May I finished my Tech MBA at NYU Stern. Underneath it all runs Korea: the Air Force sent me there at nineteen, I learned the language, and it never let go. Now I build the tools I used to only sell.
 
 Rotating facts (button: "Show me another"). Keep them true, short, and a little surprising. TODO confirm each:
 - Enlisted in the U.S. Air Force straight out of high school
@@ -40,17 +41,16 @@ Intro line (TODO): What I have built, and what I learned building it.
 Each project: one-line problem, what you built, result, link. Order matters; first is the strongest.
 
 ### K-Compliance Agent
-Problem: TODO (one line)
+Problem: Korean beauty brands entering the US hit FDA labeling rules that are hard to check before shipping
 Built: Bilingual FDA compliance tool for Korean beauty brands entering the US
-Result: TODO
-Link: TODO GitHub
+Result: Paste a label or ingredient list, get the risks flagged with the FDA rule cited and specific fixes, in English or Korean
+Link: https://github.com/Mariopeterson/k-compliance-agent
 Tags: AI, Korea, Claude Code
 
 ### Prue Care Agent
-Problem: TODO
-Built: n8n-based medication assistant; 9-item evaluation pipeline scoring 4.9/5.0
-Result: TODO
-Link: TODO
+Built: n8n-based medication assistant, tested against a 9-item evaluation pipeline
+Result: Scores 4.9/5.0 on that pipeline
+Link: none yet
 Tags: AI, n8n
 
 ### Discover Korea
@@ -61,10 +61,7 @@ Link: https://mariopeterson.github.io/Projects/
 Tags: Web, Korea
 
 ### This site
-Problem: Needed a site that proves I can build, not just say I can
-Built: TODO (fill in after v1 ships)
-Link: GitHub repo
-Tags: Web
+Removed from the Work list 2026-09-29 (Mario: weakest card). The site speaks for itself.
 
 ### TODO other n8n / Claude Code projects
 
@@ -92,19 +89,16 @@ Videos: TODO
 
 ## 03 / Path (the timeline)
 
-There is no separate About section; this section does that work. Each step: Hangul label, short title, one line, year. Click expands to the one line plus an optional longer note. The Hangul labels stay; the site is English only.
+There is no separate About section; this section does that work. Vertical timeline (decision 2026-09-29: replaces the carousel and the planned glowing horizontal version; calm, no glow, no Hangeul labels, no base names). Each step: years in mono, title, one human line, one mono receipt line of resume numbers.
 
-1. 공군 / U.S. Air Force / Enlisted out of high school. Logistics, 2S051. / TODO year
-2. 오산 / Osan Air Base, Korea / Learned Korean on the job. Started the thread that runs through everything since. / TODO year
-3. 루크 / Luke AFB / F-16 and F-35 supply chain. / TODO year
-4. 일리노이 / University of Illinois / BS Finance on the GI Bill. Gilman Scholar. / TODO year
-5. 싱가포르 / Singapore / Semester abroad. First time seeing Asia as a career, not a deployment. / TODO year
-6. 마이크로소프트 / Microsoft / Customer Success Account Manager, US and Canada enterprise. / TODO years
-7. 인도 · 호주 / India and ANZ / Built the OEM partner motion. India book from ~$600K to $1.3M. / TODO years
-8. 스턴 / NYU Stern / Tech MBA, Strategy and Tech Innovation. Graduated May 2026. / 2024–2026
-9. 지금 / Now / Building AI tools. Partnerships and customer success roles, AI-forward companies. Seoul on the horizon. / 2026
+1. 2013-2017 / U.S. Air Force / Enlisted out of high school. Logistics for F-16 and F-35 squadrons, stationed in South Korea and Arizona. Learned Korean on the job. / 123,000 parts, $189M managed, innovation award
+2. 2017-2019 / University of Illinois / BS Finance on the GI Bill. A Gilman Scholarship put me in Singapore for a semester: first time seeing Asia as a career, not a deployment. / BS Finance, Gilman Scholar
+3. 2020-2023 / Microsoft, enterprise / Customer success for enterprise accounts across the US and Canada. / 15+ accounts, 30,000+ users, 100% renewals across $4M+ ACV
+4. 2023-2025 / Microsoft, OEM partnerships / Built the OEM partner motion across India and ANZ. / $5M+ partner revenue, India book $600K to $1.3M, 250% of target in ANZ
+5. 2024-2026 / NYU Stern / Tech MBA in Strategy and Tech Innovation, finished while still running the partner book. Dean's List. / Tech MBA, Dean's List, May 2026
+6. 2026 / Now / Building AI tools. Partnerships and customer success at AI-forward companies. Seoul on the horizon. / K-Compliance Agent, Prue Care Agent
 
-Thesis line, shown after the last step (TODO rewrite):
+Thesis line, shown after the last step:
 None of this needed a connection or a pedigree. It needed knowing the doors existed.
 
 ---
@@ -124,15 +118,14 @@ Each: name, one line, detail on select.
 
 ## 05 / Photos
 
-Six for v1, real, with a one-line caption each. Mario picks six of these eight candidates. TODO mark the six and write a caption for each:
-- Osan
-- Luke
-- Seoul
-- On set (Korean TV)
-- Hyrox
-- Stern
-- Singapore
-- Microsoft
+Six live as of 2026-09-29, chronological. Captions drafted by Claude, Mario to correct (guesses marked):
+1. img/graduation.jpg - "Basic training graduation, 2013. Day one." (year is a guess from the 2013 enlistment)
+2. img/gimbap.jpg - "First tour in South Korea. First gimbap, too." ("first" is a guess)
+3. img/award.jpg - "Innovation award for redesigning a hazmat tracking system." (photo restored from a low-res original)
+4. img/tv-waiter.jpg - "On set for Korean TV." (show/year unknown, Mario to add)
+5. img/tv-police.jpg - "Playing a police officer on MBC." (MBC read from the broadcast watermark)
+6. img/crossfit.jpg - "Training day with the crew in Korea." (location is a guess)
+Hero: img/mario-hero.jpg, Barcelona (location is a guess from the cathedral; year unknown)
 
 ---
 
@@ -152,7 +145,7 @@ Services line (draft): Open to select consulting on AI automation and partner pr
 ## Footer
 
 © 2026 Mario Peterson
-Links: LinkedIn, GitHub, Instagram (TODO), YouTube (TODO)
+Links: LinkedIn, GitHub. Instagram and YouTube go in when the handles exist.
 
 ---
 

@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Mario Peterson. Air Force logistics to Microsoft to Stern to building AI tools. Partnerships and customer success, with the hands to build what I sell.">
+  <meta name="description" content="Mario Peterson. Partnerships and customer success, with the hands to build what I sell. AI tools, the Microsoft ecosystem, NYU Stern.">
   <title>Mario Peterson</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Sans+KR:wght@400;600&family=IBM+Plex+Serif:wght@500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Serif:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
 
   <!-- Bootstrap 5.3: the tabs and the carousel depend on it -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -38,29 +39,24 @@
   <!-- Hero -->
   <header class="hero">
     <div class="hero-text">
-      <h1>Mario Peterson<span class="kr" lang="ko">마리오 피터슨</span></h1>
-      <p class="positioning">Air Force logistics to Microsoft to Stern to building AI tools.
-         Partnerships and customer success, with the hands to build what I sell.</p>
+      <h1>Mario Peterson <span class="seal" aria-hidden="true">MP</span></h1>
+      <p class="positioning">Partnerships and customer success, with the hands to build
+         what I sell.</p>
       <a href="#intro" class="scroll" aria-label="Scroll down">&#8595;</a>
     </div>
-    <!-- TODO hero photo: content.md calls for img/mario-hero.jpg, a real photo, not a headshot -->
-    <div class="photo-slot photo-slot--hero" role="img" aria-label="Placeholder for hero photo">
-      <span class="todo">TODO &middot; img/mario-hero.jpg</span>
-    </div>
+    <img class="hero-photo" src="img/mario-hero.jpg" alt="Mario Peterson on a night street in Barcelona">
   </header>
 
   <!-- Main content -->
   <main class="wrapper">
 
     <section class="section" id="intro">
-      <!-- TODO heading: content.md has no heading for the intro section -->
-      <h2><span class="todo">TODO intro heading</span></h2>
-      <p>I enlisted in the Air Force out of high school and spent my years in logistics,
-         keeping F-16s and F-35s supplied at Luke and at Osan, where I learned Korean.
-         The GI Bill got me to Illinois for finance, a Gilman scholarship got me to
-         Singapore, and from there I spent five years in the Microsoft ecosystem:
-         enterprise customer success in the US and Canada, then building the OEM partner
-         motion across India and ANZ. I finished my MBA at NYU Stern in May. Now I build
+      <h2>The short version</h2>
+      <p>I build AI tools and I know how to sell them. The last five years were the
+         Microsoft ecosystem: enterprise customer success across the US and Canada,
+         then building the OEM partner motion across India and ANZ. In May I finished
+         my Tech MBA at NYU Stern. Underneath it all runs Korea: the Air Force sent me
+         there at nineteen, I learned the language, and it never let go. Now I build
          the tools I used to only sell.</p>
 
       <div class="fact-box">
@@ -76,21 +72,22 @@
       <div class="work-grid">
         <article class="work-item">
           <h3>K-Compliance Agent</h3>
-          <p class="work-line"><span class="work-key">Problem</span> <span class="todo">TODO</span></p>
+          <p class="work-line"><span class="work-key">Problem</span> Korean beauty brands entering
+             the US hit FDA labeling rules that are hard to check before shipping</p>
           <p class="work-line"><span class="work-key">Built</span> Bilingual FDA compliance tool for
              Korean beauty brands entering the US</p>
-          <p class="work-line"><span class="work-key">Result</span> <span class="todo">TODO</span></p>
-          <p class="work-line"><span class="work-key">Link</span> <span class="todo">TODO GitHub</span></p>
+          <p class="work-line"><span class="work-key">Result</span> Paste a label or ingredient list,
+             get the risks flagged with the FDA rule cited and specific fixes, in English or Korean</p>
+          <p class="work-line"><span class="work-key">Link</span>
+             <a href="https://github.com/Mariopeterson/k-compliance-agent">github.com/Mariopeterson/k-compliance-agent</a></p>
           <p class="tags">AI &middot; Korea &middot; Claude Code</p>
         </article>
 
         <article class="work-item">
           <h3>Prue Care Agent</h3>
-          <p class="work-line"><span class="work-key">Problem</span> <span class="todo">TODO</span></p>
-          <p class="work-line"><span class="work-key">Built</span> n8n-based medication assistant;
-             9-item evaluation pipeline scoring 4.9/5.0</p>
-          <p class="work-line"><span class="work-key">Result</span> <span class="todo">TODO</span></p>
-          <p class="work-line"><span class="work-key">Link</span> <span class="todo">TODO</span></p>
+          <p class="work-line"><span class="work-key">Built</span> n8n-based medication assistant,
+             tested against a 9-item evaluation pipeline</p>
+          <p class="work-line"><span class="work-key">Result</span> Scores 4.9/5.0 on that pipeline</p>
           <p class="tags">AI &middot; n8n</p>
         </article>
 
@@ -106,17 +103,7 @@
           <p class="tags">Web &middot; Korea</p>
         </article>
 
-        <article class="work-item">
-          <h3>This site</h3>
-          <p class="work-line"><span class="work-key">Problem</span> Needed a site that proves I can build,
-             not just say I can</p>
-          <p class="work-line"><span class="work-key">Built</span> <span class="todo">TODO, fill in after v1 ships</span></p>
-          <p class="work-line"><span class="work-key">Link</span>
-             <a href="https://github.com/mariopeterson">GitHub repo</a></p>
-          <p class="tags">Web</p>
-        </article>
       </div>
-      <!-- TODO other n8n / Claude Code projects (content.md) -->
     </section>
 
     <section class="section" id="takes">
@@ -139,121 +126,64 @@
         <div class="tab-pane fade show active" id="tab-tech" role="tabpanel">
           <p>Google vs Microsoft, GCP vs Azure, what the enterprise sale actually looks like
              from inside.</p>
-          <p class="todo">TODO video &mdash; title, URL, one-line description</p>
         </div>
         <div class="tab-pane fade" id="tab-veteran" role="tabpanel">
           <p>For enlisted people who think this life is out of reach. It isn't. Here is how
              the doors work.</p>
-          <p class="todo">TODO video &mdash; title, URL, one-line description</p>
         </div>
         <div class="tab-pane fade" id="tab-korea" role="tabpanel">
           <p>Language, TV, Seoul, and why I am going back.</p>
-          <p class="todo">TODO video &mdash; title, URL, one-line description</p>
         </div>
       </div>
+      <p class="takes-note">First videos are on the way.</p>
     </section>
 
-    <!-- 03 / Path. The carousel holds the steps for now; the glowing timeline
-         is built later on the path branch. -->
+    <!-- 03 / Path: the vertical timeline. One human line per step, one receipt line under it. -->
     <section class="section" id="path">
       <h2><span class="section-label">03 / Path</span>Path</h2>
 
-      <div id="path-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="6000">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#path-carousel" data-bs-slide-to="0" class="active" aria-label="U.S. Air Force"></button>
-          <button type="button" data-bs-target="#path-carousel" data-bs-slide-to="1" aria-label="Osan Air Base, Korea"></button>
-          <button type="button" data-bs-target="#path-carousel" data-bs-slide-to="2" aria-label="Luke AFB"></button>
-          <button type="button" data-bs-target="#path-carousel" data-bs-slide-to="3" aria-label="University of Illinois"></button>
-          <button type="button" data-bs-target="#path-carousel" data-bs-slide-to="4" aria-label="Singapore"></button>
-          <button type="button" data-bs-target="#path-carousel" data-bs-slide-to="5" aria-label="Microsoft"></button>
-          <button type="button" data-bs-target="#path-carousel" data-bs-slide-to="6" aria-label="India and ANZ"></button>
-          <button type="button" data-bs-target="#path-carousel" data-bs-slide-to="7" aria-label="NYU Stern"></button>
-          <button type="button" data-bs-target="#path-carousel" data-bs-slide-to="8" aria-label="Now"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="step-card">
-              <span class="step-kr" lang="ko">공군</span>
-              <h3>U.S. Air Force</h3>
-              <p>Enlisted out of high school. Logistics, 2S051.</p>
-              <p class="step-year todo">TODO year</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="step-card">
-              <span class="step-kr" lang="ko">오산</span>
-              <h3>Osan Air Base, Korea</h3>
-              <p>Learned Korean on the job. Started the thread that runs through everything since.</p>
-              <p class="step-year todo">TODO year</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="step-card">
-              <span class="step-kr" lang="ko">루크</span>
-              <h3>Luke AFB</h3>
-              <p>F-16 and F-35 supply chain.</p>
-              <p class="step-year todo">TODO year</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="step-card">
-              <span class="step-kr" lang="ko">일리노이</span>
-              <h3>University of Illinois</h3>
-              <p>BS Finance on the GI Bill. Gilman Scholar.</p>
-              <p class="step-year todo">TODO year</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="step-card">
-              <span class="step-kr" lang="ko">싱가포르</span>
-              <h3>Singapore</h3>
-              <p>Semester abroad. First time seeing Asia as a career, not a deployment.</p>
-              <p class="step-year todo">TODO year</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="step-card">
-              <span class="step-kr" lang="ko">마이크로소프트</span>
-              <h3>Microsoft</h3>
-              <p>Customer Success Account Manager, US and Canada enterprise.</p>
-              <p class="step-year todo">TODO years</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="step-card">
-              <span class="step-kr" lang="ko">인도 &middot; 호주</span>
-              <h3>India and ANZ</h3>
-              <p>Built the OEM partner motion. India book from ~$600K to $1.3M.</p>
-              <p class="step-year todo">TODO years</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="step-card">
-              <span class="step-kr" lang="ko">스턴</span>
-              <h3>NYU Stern</h3>
-              <p>Tech MBA, Strategy and Tech Innovation. Graduated May 2026.</p>
-              <p class="step-year">2024&ndash;2026</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="step-card">
-              <span class="step-kr" lang="ko">지금</span>
-              <h3>Now</h3>
-              <p>Building AI tools. Partnerships and customer success roles, AI-forward
-                 companies. Seoul on the horizon.</p>
-              <p class="step-year">2026</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#path-carousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#path-carousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+      <ol class="timeline">
+        <li class="tl-step">
+          <p class="tl-year">2013&ndash;2017</p>
+          <h3>U.S. Air Force</h3>
+          <p>Enlisted out of high school. Logistics for F-16 and F-35 squadrons,
+             stationed in South Korea and Arizona. Learned Korean on the job.</p>
+          <p class="tl-receipt">123,000 parts &middot; $189M managed &middot; innovation award</p>
+        </li>
+        <li class="tl-step">
+          <p class="tl-year">2017&ndash;2019</p>
+          <h3>University of Illinois</h3>
+          <p>BS Finance on the GI Bill. A Gilman Scholarship put me in Singapore for a
+             semester: first time seeing Asia as a career, not a deployment.</p>
+          <p class="tl-receipt">BS Finance &middot; Gilman Scholar</p>
+        </li>
+        <li class="tl-step">
+          <p class="tl-year">2020&ndash;2023</p>
+          <h3>Microsoft, enterprise</h3>
+          <p>Customer success for enterprise accounts across the US and Canada.</p>
+          <p class="tl-receipt">15+ accounts &middot; 30,000+ users &middot; 100% renewals across $4M+ ACV</p>
+        </li>
+        <li class="tl-step">
+          <p class="tl-year">2023&ndash;2025</p>
+          <h3>Microsoft, OEM partnerships</h3>
+          <p>Built the OEM partner motion across India and ANZ.</p>
+          <p class="tl-receipt">$5M+ partner revenue &middot; India book $600K to $1.3M &middot; 250% of target in ANZ</p>
+        </li>
+        <li class="tl-step">
+          <p class="tl-year">2024&ndash;2026</p>
+          <h3>NYU Stern</h3>
+          <p>Tech MBA in Strategy and Tech Innovation, finished while still running the
+             partner book. Dean's List.</p>
+          <p class="tl-receipt">Tech MBA &middot; Dean's List &middot; May 2026</p>
+        </li>
+        <li class="tl-step">
+          <p class="tl-year">2026</p>
+          <h3>Now</h3>
+          <p>Building AI tools. Partnerships and customer success at AI-forward
+             companies. Seoul on the horizon.</p>
+          <p class="tl-receipt">K-Compliance Agent &middot; Prue Care Agent</p>
+        </li>
+      </ol>
 
       <p class="thesis">None of this needed a connection or a pedigree. It needed knowing
          the doors existed.</p>
@@ -277,38 +207,35 @@
          Google Cloud Professional Cloud Architect (in progress)</p>
     </section>
 
-    <!-- 05 / Photos. Six slots for v1; the lightbox wires itself to the images
-         once they are in img/. Candidates in content.md: Osan, Luke, Seoul,
-         On set (Korean TV), Hyrox, Stern, Singapore, Microsoft. -->
+    <!-- 05 / Photos: six real frames, chronological, wired to the lightbox. -->
     <section class="section" id="photos">
       <h2><span class="section-label">05 / Photos</span>Photos</h2>
-      <p class="lede todo">TODO pick six of the eight candidates in content.md and write a
-         one-line caption for each.</p>
+      <p class="lede">Six frames from the way here. Click any of them for a closer look.</p>
 
       <div class="gallery-grid">
         <figure>
-          <div class="photo-slot"><span class="todo">TODO photo 1</span></div>
-          <figcaption class="todo">TODO caption</figcaption>
+          <img src="img/graduation.jpg" alt="Air Force basic training graduation, 2013" data-caption="Basic training graduation, 2013. Day one." loading="lazy">
+          <figcaption>Basic training graduation, 2013. Day one.</figcaption>
         </figure>
         <figure>
-          <div class="photo-slot"><span class="todo">TODO photo 2</span></div>
-          <figcaption class="todo">TODO caption</figcaption>
+          <img src="img/gimbap.jpg" alt="Eating gimbap in uniform in South Korea" data-caption="First tour in South Korea. First gimbap, too." loading="lazy">
+          <figcaption>First tour in South Korea. First gimbap, too.</figcaption>
         </figure>
         <figure>
-          <div class="photo-slot"><span class="todo">TODO photo 3</span></div>
-          <figcaption class="todo">TODO caption</figcaption>
+          <img src="img/award.jpg" alt="Receiving an innovation award in the Air Force" data-caption="Innovation award for redesigning a hazmat tracking system." loading="lazy">
+          <figcaption>Innovation award for redesigning a hazmat tracking system.</figcaption>
         </figure>
         <figure>
-          <div class="photo-slot"><span class="todo">TODO photo 4</span></div>
-          <figcaption class="todo">TODO caption</figcaption>
+          <img src="img/tv-waiter.jpg" alt="Mario on a Korean TV drama set, playing a waiter" data-caption="On set for Korean TV." loading="lazy">
+          <figcaption>On set for Korean TV.</figcaption>
         </figure>
         <figure>
-          <div class="photo-slot"><span class="todo">TODO photo 5</span></div>
-          <figcaption class="todo">TODO caption</figcaption>
+          <img src="img/tv-police.jpg" alt="Mario on MBC, playing a police officer" data-caption="Playing a police officer on MBC." loading="lazy">
+          <figcaption>Playing a police officer on MBC.</figcaption>
         </figure>
         <figure>
-          <div class="photo-slot"><span class="todo">TODO photo 6</span></div>
-          <figcaption class="todo">TODO caption</figcaption>
+          <img src="img/crossfit.jpg" alt="Group photo at a CrossFit gym in Korea" data-caption="Training day with the crew in Korea." loading="lazy">
+          <figcaption>Training day with the crew in Korea.</figcaption>
         </figure>
       </div>
     </section>
@@ -344,11 +271,8 @@
     <div class="brand">Mario <span>Peterson</span></div>
     <div class="copyright">&copy; <span id="year">2026</span> Mario Peterson</div>
     <nav class="social" aria-label="Elsewhere">
-      <!-- TODO Instagram, YouTube URLs (content.md) -->
       <a href="https://github.com/mariopeterson">GitHub</a>
       <a href="https://www.linkedin.com/in/mariofpeterson/">LinkedIn</a>
-      <span class="todo">TODO Instagram</span>
-      <span class="todo">TODO YouTube</span>
     </nav>
   </footer>
 

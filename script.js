@@ -31,7 +31,7 @@ pageLinks.forEach(function (link) {
 });
 
 // ----- Rotating fact -----
-// Copy comes from content.md. TODO three more facts.
+// Copy comes from content.md.
 const facts = [
   "Enlisted in the U.S. Air Force straight out of high school",
   "Learned Korean at Osan Air Base and now speaks it at a professional level",
@@ -98,10 +98,7 @@ for (let i = 0; i < stack.length; i++) {
 const stackDetail = document.getElementById("stack-detail");
 function showStackDetail() {
   const item = stack[stackSelect.value];
-  // content.md still has "Detail: TODO" for every entry.
-  const detail = item.detail
-    ? '<p>' + item.detail + '</p>'
-    : '<p class="todo">TODO detail</p>';
+  const detail = item.detail ? '<p>' + item.detail + '</p>' : '';
   stackDetail.innerHTML =
     "<h3>" + item.name + "</h3>" +
     "<p>" + item.desc + "</p>" +
@@ -179,6 +176,16 @@ if (typeof gsap === "undefined" || reduceMotion) {
       autoAlpha: 0,
       duration: 0.7,
       scrollTrigger: { trigger: sec, start: "top 85%" }
+    });
+  });
+
+  // Timeline steps arrive one at a time, calmly.
+  gsap.utils.toArray(".tl-step").forEach(function (step) {
+    gsap.from(step, {
+      y: 20,
+      autoAlpha: 0,
+      duration: 0.55,
+      scrollTrigger: { trigger: step, start: "top 88%" }
     });
   });
 
