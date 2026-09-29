@@ -17,7 +17,7 @@ Audience, in priority order:
 - Start from what exists. Keep the structure of index.html, styles.css, and script.js. Reuse the components already built there: hamburger nav, smooth scroll, tabs, lightbox, reveal-on-scroll (the rotating fact button was removed 2026-09-29 at Mario’s request; do not reintroduce it). Do not rebuild them from scratch.
 - When a new layout is needed, use a pattern from reference/Class Files (see map below). Do not invent a layout when a Class Files pattern exists.
 - Use the techniques from reference/, never the visual design. No Noble fonts, colors, images, or copy survive.
-- Vanilla HTML, CSS, JS. No frameworks, no build step, no Tailwind, no component libraries. Bootstrap (the carousel, plus container and my-5 utilities) and GSAP (the scroll reveals) are already in the Korea site; keep them only where a component depends on them, and remove Bootstrap utility classes from new markup. Prefer plain CSS Grid and Flexbox.
+- Vanilla HTML, CSS, JS. No frameworks, no build step, no Tailwind, no component libraries. GSAP (the scroll reveals) is self-hosted in vendor/. Bootstrap was removed entirely 2026-09-29 when the Takes tabs went away; nothing depends on it, do not reintroduce it. Prefer plain CSS Grid and Flexbox.
 - Mobile first. Check every section at 380px wide before calling it done.
 - Respect prefers-reduced-motion for every animation. Use semantic HTML. Alt text on every image.
 - One change per session. Build one section, commit on a branch, stop. Do not restyle five sections when asked to restyle one.
@@ -48,7 +48,7 @@ Do not do: rounded pill buttons, glassmorphism, gradient text, icon grids, three
 | Hero "Discover Korea" | Name with red MP seal mark, positioning line, photo, scroll cue (↓). No Korean transliteration (2026-09-29) | hero, scroll link |
 | Intro + "Did you know?" | Short version of the path; rotating fact about Mario | fact-btn / showRandomFact |
 | Culture & Heritage | 01 / WORK: things he has built | two-column text + image |
-| Food tabs | 02 / TAKES: tabs for Tech, Veteran transition, Korea; each tab a short intro and one video | tabs |
+| Food tabs | 02 / TAKES: heading plus "Coming soon." only (Mario, 2026-09-29); videos and structure come when the first video exists | none |
 | Glimpses carousel | 03 / PATH: the vertical decision timeline (see Style); no Hangul labels (2026-09-29) | carousel → timeline |
 | Regions map + picker | 04 / STACK: Microsoft, Google Cloud, n8n, Claude Code, ChatGPT as a plain grid; the picker was removed 2026-09-29 | region grid |
 | — (new) | Certifications strip: one line in Plex Mono, directly under 04 / STACK | plain text line |

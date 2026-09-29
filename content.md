@@ -61,21 +61,7 @@ Removed from the Work list 2026-09-29 (Mario: weakest card). The site speaks for
 
 ## 02 / Takes
 
-Intro line (TODO): Short videos where I say what I actually think.
-
-Tabs:
-
-### Tech
-Intro (TODO): Google vs Microsoft, GCP vs Azure, what the enterprise sale actually looks like from inside.
-Videos: none yet. Decision 2026-09-29: the section stays live with its tab intros and no coming-soon line; Mario wants it as a commitment device and future audience surface (possibly a subscribe button later).
-
-### Veteran transition
-Intro (TODO): For enlisted people who think this life is out of reach. It isn't. Here is how the doors work.
-Videos: TODO
-
-### Korea
-Intro (TODO): Language, TV, Seoul, and why I am going back.
-Videos: TODO
+Decision 2026-09-29: the section is just the heading and "Coming soon." until the first video exists. The earlier three-tab structure (Tech / Veteran transition / Korea) is retired; revisit the shape when there is real content.
 
 ---
 
